@@ -11,7 +11,13 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=aws-java-web-app'
+  links:
+    - url: https://engineering.statefarm.com
+      title: Engineering Blog
+      icon: dashboard
 spec:
   type: service
   lifecycle: experimental
   owner: default-team
+  
+ 
